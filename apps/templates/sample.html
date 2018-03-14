@@ -1,0 +1,148 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#{%  load staticfiles %}#}
+{#<meta charset="UTF-8">#}
+{#    <title>SIGN IN</title>#}
+{#<title>Login V2</title>#}
+{#	<meta charset="UTF-8">#}
+{#	<meta name="viewport" content="width=device-width, initial-scale=1">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">#}
+{#	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">#}
+{#<head>#}
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">#}
+{##}
+{#</head>#}
+{#<div class="limiter">#}
+{#		<div class="container-login100">#}
+{#			<div class="wrap-login100">#}
+{#				<form class="login100-form validate-form">#}
+{#					<span class="login100-form-title p-b-26">#}
+{#						Welcome#}
+{#					</span>#}
+{#					<span class="login100-form-title p-b-48">#}
+{#						<i class="zmdi zmdi-font"></i>#}
+{#					</span>#}
+{#    <div class="container">#}
+{##}
+{#<script src="{% static 'js/sample.js' %} "></script>#}
+{#<form class="well form-horizontal" action=" sign/authn" method="post"  id="contact_form">#}
+{#<fieldset>#}
+{##}
+{##}
+{#     <div class="form-group">#}
+{#  <label class="col-md-4 control-label">E-Mail</label>#}
+{#    <div class="col-md-4 inputGroupContainer">#}
+{#    <div class="input-group">#}
+{#        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>#}
+{#        {% csrf_token %}#}
+{#  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" id="email">#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{#    <div class="form-group">#}
+{#    <div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">#}
+{#        {% csrf_token %}#}
+{#						<input class="input100" type="text" name="email">#}
+{#						<span class="focus-input100" data-placeholder="Email"></span>#}
+{#					</div>#}
+{#    </div>#}
+{#    <div class="form-group">#}
+{#    <div class="wrap-input100 validate-input" data-validate="Enter password">#}
+{#						<span class="btn-show-pass">#}
+{#							<i class="zmdi zmdi-eye"></i>#}
+{#						</span>#}
+{#						<input class="input100" type="password" name="user_password">#}
+{#						<span class="focus-input100" data-placeholder="Password"></span>#}
+{#					</div>#}
+{#    </div>#}
+{##}
+{#<!-- Text input-->#}
+{##}
+{#<div class="form-group">#}
+{#  <label class="col-md-4 control-label" >Password</label>#}
+{#    <div class="col-md-4 inputGroupContainer">#}
+{#    <div class="input-group">#}
+{#  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>#}
+{##}
+{#  <input name="user_password" placeholder="Password" class="form-control"  type="password" id="pwd">#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{#<#}
+{#    <!--input image-->#}
+{#<form action="/action_page.php">#}
+{#  <input type="file" method="POST">#}
+{#<!-- Select Basic -->#}
+{##}
+{#<!-- Success message -->#}
+{#<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>#}
+{##}
+{#<!-- Button -->#}
+{#<div class="form-group" action=" ">#}
+{#  <label class="col-md-4 control-label"></label>#}
+{#  <div class="col-md-4"><br>#}
+{#    <input type="submit" class="btn btn-warning" ></button>#}
+{#  </div>#}
+{#</div>#}
+{##}
+{##}
+{#</form>#}
+{#</fieldset>#}
+{#</form>#}
+{#        <div id="dropDownSelect1"></div>#}
+{##}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>#}
+{#	<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/select2/select2.min.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>#}
+{#	<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'vendor/countdowntime/countdowntime.js' %}"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="{% static 'js/main.js' %}"></script>#}
+{#</div>#}
+{#    </div><!-- /.container -->#}
+{#</html>#}
+
+
+{% load staticfiles %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="img.jpg" alt="John" style="width:100%">
+  <h1>John Doe</h1>
+  <p class="title">CEO & Founder, Example</p>
+  <p>Harvard University</p>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button>Contact</button></p>
+</div>
